@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .upicon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+#top {
+    position: fixed;
+    padding: 8px;
+} */
+
+
+.navbar button {
+    color: #fff !important;
+}
+
+.navbar-brand i {
+    margin-left: 100px;
+    color: #fff;
+}
+
+.navbar-brand i:hover {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333333 !important;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+}
+
+.banner-1 {
+    background-image: url("./image/hero1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+
+}
+
+.banner-1img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-1para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-1para button {
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+.banner-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url("./image/hero2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding: 40px;
+}
+
+.banner-2para {
+    text-align: center;
+}
+
+.banner-2para h1 {
+    font-size: 50px;
+}
+
+.banner-2para p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.banner-2para a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.banner-2para a:hover {
+    text-decoration: underline;
+}
+
+.card1 {
+    background-image: url("./image/card1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin: 10px 0px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.card2 {
+    background-image: url("./image/card2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin: 10px 0px;
+    text-align: center;
+    color: black;
+}
+
+.card3 {
+    background-image: url("./image/card3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin: 10px 0px;
+    text-align: center;
+    color: black;
+}
+
+.card4 {
+    background-image: url("./image/card4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin: 10px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.maincard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.maincard p {
+    font-weight: bold;
+}
+
+.maincard ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    /* text-align: center; */
+}
+
+#carouselExampleRide img{
+    width: 100%;
+    height: 85vh;
+}
+
+
+.banner-end {
+    text-align: center;
+}
+
+.banner-end h1>span {
+    color: orange;
+}
+
+.banner-end h1 {
+    font-size: 30px;
+}
+
+.banner-end p {
+    font-size: 20px;
+}
+
+.mainicon>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.iconitems {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+}
+
+.iconitems i {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    top: 25px;
+    left: 10px;
+}
